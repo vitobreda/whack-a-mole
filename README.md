@@ -11,3 +11,7 @@ A simple game using HTML, CSS and JavaScript. The idea of whack-a-mole is simple
     </td>
   </tr>
 </table>
+
+## Getting Started
+
+Clone this repository and open in your browser the file `index.html`

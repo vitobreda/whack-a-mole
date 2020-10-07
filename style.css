@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 .square {
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: black;
+    width: 130px;
+    height: 130px;
+    border: solid 15px #81523f;
+    border-radius: 50%;
+    margin: 5px;
+    background: linear-gradient(#3f2a2b, #231f20);
+
 }
 
 .grid {
@@ -10,12 +19,48 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    width: 618px;
-    height: 618px;
+    background-color: green;
+    border: solid 10px #81523f;
+    margin: 20px;
+
 }
 
 .mole {
-    background-image: url('mole.jpg');
+    background-image: url('mole.svg');
     background-size: cover;
+    background-color:#3d1308;
+    cursor: pointer;
+ 
+}
+
+.header {
+display: flex;
+justify-content: space-around;
+}
+.header div  h2{
+   text-align: center;
+    }
+
+#start-button {
+  width: 100px;
+  height: 48px;
+  background-color: burlywood;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
 
 }
+
+h1 {
+    text-align: center;
+}
+
+
+@media (max-width: 430px) {
+    .square {
+        width: 30vw;
+        height: 30vw;
+    }
+  }
